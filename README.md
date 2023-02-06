@@ -1,1 +1,1 @@
-# 5x7
+# 5x7 tic-tac-toe game
