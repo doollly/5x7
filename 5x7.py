@@ -31,6 +31,11 @@ def player_move(icon):
     else:
         print()
         print("That space is already taken!")
+         if board[choice - 1] == " ":
+        board[choice - 1] = icon
+    else:
+        print()
+        print("That space is already taken!")
 
 def is_victory(icon):
     if (board[0] == icon and board[1] == icon and board[2] == icon and board[3] == icon and board[4] == icon) or \
